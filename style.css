@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+
+    /* box-sizing: border-box; */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* box-shadow: 0px 4px 8px 0 gray; */
+    background-color: whitesmoke;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+}
+
+header img {
+    /* flex-grow: 1; */
+    box-sizing: border-box;
+    margin-left: 15%;
+    width: 77px;
+
+
+
+}
+
+header nav {
+    flex-grow: 1;
+    margin-left: 36%;
+
+    /* border: 1px solid black; */
+}
+
+/* header.toogle span {
+    background-color: black
+} */
+
+header nav ul li {
+    margin: 5px 5px;
+    padding: 10px 10px;
+    display: inline;
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav ul li .author {
+    display: inline-block;
+    background: #28DF99;
+    width: 80px;
+    height: 20px;
+    border-radius: 10px;
+
+}
+
+.menu-toogle {
+    display: none;
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    height: 15px;
+    justify-content: space-between;
+    padding: 3px;
+    margin-right: 40px;
+
+    /* box-shadow: 0 1px 3px 0 lightgrey; */
+    /* border: 1px solid black; */
+}
+
+.menu-toogle span {
+    display: block;
+    width: 28px;
+    height: 3px;
+    background-color: #50D890;
+    border-radius: 5px;
+}
+
+
+
+a:hover {
+    font-weight: bold;
+    /* text-decoration: underline; */
+}
+
+header nav ul li a.author:hover {
+    box-shadow: 0 1px 8px gray;
+}
+
+/* AKHIR STYLE HEADER */
+
+/* Awal Style MAIN */
+div.content-1 {
+    display: flex;
+    background-color: #50D890;
+    align-items: center;
+    /* border: 1px solid black; */
+    /* margin-top: 5px; */
+    height: 450px;
+}
+
+
+
+.content-1 img {
+    text-align: center;
+    box-sizing: border-box;
+    /* flex-grow: 3; */
+    padding-top: 50px;
+    width: 350px;
+    height: 350px;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    /* border: 1px solid black; */
+
+
+}
+
+.content-1 article {
+    flex-grow: 1;
+    /* border: 1px solid black; */
+}
+
+.content-1 article h1 {
+    padding-left: 50px;
+
+}
+
+.content-1 article p {
+    padding-left: 50px;
+    /* font-size: 1.5em; */
+}
+
+/* Akhir Program .content-1 */
+
+/* Awal Program .content-2 */
+
+.content-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    /* height: 360px; */
+    margin-top: 0;
+}
+
+/* .content-2 {
+    display: flex;
+    flex-direction: column;
+} */
+
+.content-2 h3 {
+    text-align: center;
+}
+
+.content-2 article {
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+
+.content-2 article section {
+    display: flex;
+    flex-direction: row;
+    /* border: 1px solid black; */
+    margin-top: 20px;
+    /* justify-content: center; */
+    /* width: 20px; */
+
+}
+
+.content-2 article section p {
+    padding-top: 10%;
+}
+
+.content-2 article section img {
+    width: 300px;
+    /* border: 1px solid black; */
+}
+
+.card {
+    width: 50%;
+    margin-top: 10px;
+}
+
+.sejarah {
+    margin-left: 20%;
+}
+
+.haluanOrganisasi {
+    margin-left: 40%;
+}
+
+.benefit {
+    margin-left: 20%;
+}
+
+.benefit img {
+    width: 200px;
+    height: 200px
+}
+
+/* Akhir Style Content-2 */
+
+/* Awal Style Conten-3 */
+
+
+div.content-3 {
+    display: flex;
+
+    flex-direction: column;
+    background-color: #50D890;
+    margin-top: 0;
+    /* border: 1px solid black; */
+    /* height: 420px; */
+}
+
+div.content-3 h3 {
+    text-align: center;
+}
+
+div.content-3 h3+p {
+    margin-top: 40px;
+    text-align: center;
+}
+
+div #tim {
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+
+    /* border: 1px solid black; */
+}
+
+div #tim h5 {
+    /* flex: 1; */
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-3 {
+    /* border: 1px solid black; */
+    flex-grow: 1;
+    padding: 15px;
+    margin: 5px 5px;
+    width: 33.3%;
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 0 3px 8px 0 gray;
+}
+
+.card-3:hover {
+    background-color: #99F3BD;
+}
+
+.card-3 p {
+    margin-top: 10px;
+    text-align: justify;
+
+}
+
+.content-3 img {
+    height: 300px;
+    text-decoration: none;
+
+}
+
+.krai img {
+    height: 200px;
+}
+
+.krsbi img {
+    height: 200px;
+}
+
+.krpai img {
+    height: 200px;
+}
+
+.card-3:hover {
+    /* background-color: red; */
+    box-shadow: 0 4px 8px 0 white;
+}
+
+.content-4 {
+    display: flex;
+    flex-direction: column;
+    /* justify-scontent: center; */
+    align-items: center;
+    box-shadow: 0 4px 8px 0 gray;
+    box-sizing: border-box;
+    background-color: #50D890;
+    border-radius: 20px;
+    width: 400px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+
+.content-4 img {
+    margin-top: 30px;
+    object-fit: cover;
+    object-position: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.bio {
+    flex: 1;
+    margin-top: 20px;
+    /* border: 1px solid black; */
+}
+
+.bio h4 {
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    background-color: #99F3BD;
+    border-radius: 20px;
+}
+
+.bio .indent {
+    text-indent: 0.7em;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.bio p {
+    font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        justify-content: space-evenly;
+        margin-left: 5%;
+    }
+
+    header nav ul {
+        width: 100%;
+        /* padding-left: 0px; */
+    }
+
+    div.content-1 {
+        flex-direction: column;
+    }
+
+    div.content-1 img {
+        padding-top: 20px;
+        width: 300px;
+        height: 300px;
+        margin-left: 10px;
+    }
+
+    div.content-2 article section {
+        /* border: 1px solid black; */
+        flex-direction: column;
+    }
+
+    div.content-2 article section p {
+        padding-top: 2px;
+    }
+
+    div #tim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-3 {
+        flex-basis: 25%;
+        width: 70%;
+    }
+
+}
+
+@media screen and (max-width:561px) {
+
+    nav ul {
+        display: none;
+        position: absolute;
+        /* overflow-x: hidden; */
+        right: 0px;
+        height: 100vh;
+        top: 8vh;
+        background-color: whitesmoke;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 50%;
+        transform: translateX(100%);
+        transition: 0.5s ease-in;
+        margin-top: 1px;
+    }
+
+    nav ul.slide {
+        transform: translateX(0);
+    }
+
+    .menu-toogle {
+        display: flex;
+        cursor: pointer;
+    }
+
+    div.content-1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .content-1 img {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+        margin-left: 0;
+
+    }
+
+    .content-1 article h1 {
+        margin: 2px;
+    }
+
+    .content-1 article p {
+        margin: 2px;
+    }
+
+    /* content 2 */
+    .content-2 article section {
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
+
+    .content-2 article section img {
+        order: 1;
+    }
+
+    .content-2 article section p {
+        order: 2;
+        margin-top: 1px;
+        /* padding-top: 100px; */
+        text-align: justify;
+        width: 100%;
+    }
+
+    .haluanOrganisasi {
+        margin-left: 20%;
+    }
+
+    .benefit img {
+        width: 1000px;
+        /* height: 100px; */
+    }
+
+    div.content-3 {
+        max-height: max-content;
+    }
+
+    div #tim {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    .card-3 {
+        flex-grow: 1;
+        width: 340px;
+        /* width: 300px;
+        height: 100px; */
+        box-sizing: border-box;
+        overflow: auto;
+    }
+}
